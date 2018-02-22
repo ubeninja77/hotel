@@ -78,7 +78,7 @@ Remember that your job is only to build the classes that store information and h
 
 ### Error Handling
 
-- Your code should raise an error when an invalid date range is provided
+- Your code should raise an error ([StandardError](https://ruby-doc.org/core-2.5.0/StandardError.html)) when an invalid date range is provided
 
 ### Hints
 
