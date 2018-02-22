@@ -129,3 +129,6 @@ You should not be working on these (or even thinking about them) until you have 
 - Allow a user to set different rates for different rooms
 - Read/write CSV files for each piece of data that your system is storing
 - Create a CLI to interact with your hotel system
+
+## What we're looking for
+You can find what instructors will be looking for in the [feedback](feedback.md) markdown document. 
