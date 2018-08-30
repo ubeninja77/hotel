@@ -129,7 +129,7 @@ Usually by the end of a project, we can look back on what we made with a clearer
 - Create a new file in the project called `refactors.txt`
 - Make a short list of the changes that you could make, particularly in terms of naming conventions
 - These notes will be used by you in a few weeks, so make sure that they are detailed enough that someone else could understand your thinking and follow your directions
-- *Do not make any further changes to your code at this time*
+- **Do not make any further changes to your code at this time**
 
 ## Optional Enhancements
 
