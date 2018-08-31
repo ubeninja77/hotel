@@ -31,13 +31,11 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 
 ### Setup
 
-We will use the same project structure we used for the previous project. Classes should be in files in the `lib` folder, and tests should be in files in the `specs` folder. You should utilize a spec helper file. You will run tests by executing the `rake` command, as configured in a Rakefile.
+We will use the same project structure we used for the previous project. Classes should be in files in the `lib` folder, and tests should be in files in the `spec` folder. You should utilize a spec helper file. You will run your tests automatically whenever files are added or changed, with the `guard` command.
 
 1. Fork this repository in GitHub
 1. Clone the repository to your computer
-1. Create/copy a rakefile to run your tests
-1. Create the `specs/spec_helper.rb` file to load your classes and start `simplecov`. This file will load all the required gems and source files your spec files need so they only need to require the helper.
-    - Each of your spec files should `require_relative` the spec helper file.
+1. Open a terminal and run the `guard` command from within the project's root directory (where the `Guardfile` is).
 1. Create a test to check the instantiation of one of your object types (**RED**)
 1. Create the class for the object tested in the step above (**GREEN**)
 1. Use `git add`, `commit` and `push` commands to push your initial code to GitHub
