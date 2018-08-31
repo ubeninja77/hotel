@@ -10,6 +10,7 @@ Reinforce and practice all of the Ruby and programming concepts we've covered in
 
 This is a [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md), individual project.
 
+
 ## Introduction
 
 Your company has been contracted to build a booking system for a small hotel. This system will be used by employees working at the front desk, and will not be available to the general public.
@@ -20,7 +21,7 @@ Instead, you will use tests to verify your part of the system works as intended.
 
 ### Expectations
 
-This project is both a culmination of our Intro to Ruby unit and our first stage 3 project. This means the requirement are more open-ended and ambiguous than previous projects you have worked on. This is intentional. You will be expected to:
+This project is both a culmination of our Intro to Ruby unit and our first stage 3 project. This means the requirements are more open-ended and ambiguous than previous projects you have worked on. This is intentional. You will be expected to:
 
 - Make decisions on how to structure your classes and methods
 - Ask questions when you need clarification
@@ -52,7 +53,7 @@ You should use the following process as much as possible:
 
 You should have **95% code coverage** using `simplecov`.
 
-Your git commit history should provide a clear description of how your code developed, letting the reader know what changed when and why.
+Your git commit history should provide a clear description of how your code developed, letting the reader know what changed when and why. Making frequent, small commits is essential!
 
 ## Wave Zero: Project Design
 
@@ -121,6 +122,15 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 - A block can contain a maximum of 5 rooms
 - When a room is reserved from a block of rooms, the reservation dates will always match the date range of the block
 - All of the availability checking logic from Wave 2 should now respect room blocks as well as individual reservations
+
+## Before Submissions
+
+Usually by the end of a project, we can look back on what we made with a clearer understanding of what we actually needed. In industry, this is a great time to do a refactor of some sort. For this project however, you're off the hook... for the moment. We will be revisiting our hotels later on on the course, and you may want to make some changes at that point. 
+
+- Create a new file in the project called `refactors.txt`
+- Make a short list of the changes that you could make, particularly in terms of naming conventions
+- These notes will be used by you in a few weeks, so make sure that they are detailed enough that someone else could understand your thinking and follow your directions
+- **Do not make any further changes to your code at this time**
 
 ## Optional Enhancements
 

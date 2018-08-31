@@ -25,4 +25,7 @@ Create a block of rooms |
 Check if a block has rooms |
 Reserve a room from a block |
 Test coverage |
+**Wrap Up** |
+There is a refactors.txt file |
+The file provides a roadmap to future changes |
 **Additional Feedback** |
