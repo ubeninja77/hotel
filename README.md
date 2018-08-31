@@ -10,6 +10,8 @@ Reinforce and practice all of the Ruby and programming concepts we've covered in
 
 This is a [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md), individual project.
 
+This project is due before class on **Monday September 10th**
+
 ## Introduction
 
 Your company has been contracted to build a booking system for a small hotel. This system will be used by employees working at the front desk, and will not be available to the general public.
