@@ -1,5 +1,14 @@
 # Hotel
 
+## At A Glance
+
+- Individual, [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project
+- Due before class, *DATE HERE*
+
+## Introduction
+
+Our company has been contracted to build a booking system for a small hotel. This system will be used by employees who manage bookings and booking data, and will not be available to the general public.
+
 ## Learning Goals
 
 Reinforce and practice all of the Ruby and programming concepts we've covered in class so far:
@@ -8,14 +17,9 @@ Reinforce and practice all of the Ruby and programming concepts we've covered in
 - Create class and instance methods within our classes
 - Write pseudocode and create tests to drive the creation of our code
 
-This is a [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md), individual project.
+## Objective
 
-
-## Introduction
-
-Our company has been contracted to build a booking system for a small hotel. This system will be used by employees who manage bookings and booking data, and will not be available to the general public.
-
-We should make a module full of business logic that tracks which rooms are reserved, and at what dates. This should be organized into appropriate classes and methods.
+For our hotel booking system, we should make a module full of business logic that tracks which rooms are reserved, and at what dates. This should be organized into appropriate classes and methods.
 
 We should use tests to verify that this system works as intended.
 
