@@ -143,14 +143,17 @@ You should not be working on these (or even thinking about them!) until you have
 </details>
 
 
-## Before Submissions
+## Before Submission: `refactors.txt` Requirement
 
-Usually by the end of a project, we can look back on what we made with a clearer understanding of what we actually needed. In industry, this is a great time to do a refactor of some sort. For this project however, you're off the hook... for the moment. We will be revisiting our hotels later on on the course, and you may want to make some changes at that point. 
+Usually by the end of a project, we can look back on what we made with a clearer understanding of what we actually needed. In industry, this is a great time to do a refactor of some sort. For this project however, you're off the hook... for the moment. We will be revisiting our Hotel project submissions later on on the course, and you may want to make some changes at that point.
 
-- Create a new file in the project called `refactors.txt`
-- Make a short list of the changes that you could make, particularly in terms of naming conventions
-- These notes will be used by you in a few weeks, so make sure that they are detailed enough that someone else could understand your thinking and follow your directions
-- **Do not make any further changes to your code at this time**
+In order to keep track of your current thoughts about design refactoring, as part of project submission, please log down design thoughts with the following process:
+
+1. Create a new file in the project called `refactors.txt`
+1. In that file, make a short list of the changes that you could make, such as naming conventions, etc.
+    - These notes will be used by you in a few weeks, so make sure that they are detailed enough that someone else could understand your thinking and follow your directions
+    - Commit and push this file to your project repo
+1. **Do not make any further changes to your code at this time**
 
 ## What we're looking for
 You can find what instructors will be looking for in the [feedback](feedback.md) markdown document. 
