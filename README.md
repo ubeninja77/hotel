@@ -33,11 +33,16 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 
 ## Getting Started
 
-We will use the same project structure we used for the previous project. Classes should be in files in the `lib` folder, and tests should be in files in the `spec` folder.
+We will use the same project structure we used for the previous project. Library code (such as classes) should be in files in the `lib` folder, and tests should be in files in the `spec` folder.
 
 1. Fork this repository in GitHub
 1. Clone the repository to your computer
-1. Open a terminal and run the `guard` command from within the project's root directory (where the `Guardfile` is).
+
+### Verify Setup With Your First Commit
+
+Follow the steps below first to verify that your setup is working. If you cannot get `guard` to run, a failing test to run, or a test to pass at the beginning, please ask for help before continuing the project.
+
+1. Open a terminal and run the `guard` command from within the project's root directory (where the `Guardfile` is)
 1. Create a test to check the instantiation of one of your object types (**RED**)
 1. Create the class for the object tested in the step above (**GREEN**)
 1. Use `git add`, `commit` and `push` commands to push your initial code to GitHub
