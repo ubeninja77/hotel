@@ -109,14 +109,15 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 
 #### User Stories
 
-- As an administrator, I can create a block of rooms
-    - To create a block you need a date range, collection of rooms and a discounted room rate
-    - The collection of rooms should only include rooms that are available for the given date range
-    - If a room is set aside in a block, it is not available for reservation by the general public, nor can it be included in another block
-- As an administrator, I can check whether a given block has any rooms available
-- As an administrator, I can reserve a room from within a block of rooms
+- As a user of the hotel system,
+  - I can create a Hotel Block if I give a date range, collection of rooms, and a discounted room rate
+  - I can see an exception raised if I try to create a Hotel Block and at least one of the rooms is unavailable for the given date range
+  - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot reserve that specific room for that specific date, because it is unavailable
+  - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot create another hotel block that includes that specific room for that specific date, because it is unavailable
+  - I can check whether a given block has any rooms available
+  - I can reserve a room from within a block of rooms
 
-#### Constraints
+#### Details
 
 - A block can contain a maximum of 5 rooms
 - When a room is reserved from a block of rooms, the reservation dates will always match the date range of the block
