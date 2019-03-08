@@ -4,8 +4,9 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Describe a design decision you had to make when working on this project. What options were you considering? What helped you make your final decision? | 
-Describe a concept that you gained more clarity on as you worked on this assignment. | 
-Describe a _nominal test_ that you wrote for this assignment. | 
-Describe an _edge case test_ that you wrote for this assignment. | 
+What was a design challenge that you encountered on this project? | 
+What was a design decision you made that changed over time over the project? | 
+What was a concept you gained clarity on, or a learning that you'd like to share? | 
+What is an example of a _nominal test_ that you wrote for this assignment? What makes it a nominal case? | 
+What is an example of an _edge case test_ that you wrote for this assignment? What makes it an edge case? | 
 How do you feel you did in writing pseudocode first, then writing the tests and then the code? | 
