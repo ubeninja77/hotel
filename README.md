@@ -54,11 +54,11 @@ You should use the following process as much as possible:
 
 Your git commit history should provide a clear description of how your code developed, letting the reader know what changed when and why. Making frequent, small commits is essential!
 
+### Wave Zero: In-Class Design Activity
+
+Before starting work on the functional requirements, create a first draft of your project's design in the in-class instructor-led activity.
+
 ## Functional Requirements
-
-### Wave Zero: Project Design
-
-This will be an in-class activity.
 
 ### Wave One: Tracking Reservations
 
