@@ -78,7 +78,7 @@ Remember: Your job is to only build the classes that store information and handl
   - I can reserve a room for a given date range, so that I can make a reservation
   - I can access the list of reservations for a specific date, so that I can track reservations by date
   - I can get the total cost for a given reservation
-  - I want a [StandardError](https://ruby-doc.org/core-2.5.0/StandardError.html) raised when an invalid date range is provided, so that I can't make a reservation for an invalid date range
+  - I want exception raised when an invalid date range is provided, so that I can't make a reservation for an invalid date range
 
 #### Details
 
@@ -98,7 +98,7 @@ Remember: Your job is to only build the classes that store information and handl
 - As a user of the hotel system...
   - I can view a list of rooms that are not reserved for a given date range, so that I can see all available rooms for that day
   - I can reserve an available room for a given date range
-  - I can see an exception raised if I try to reserve a room that is unavailable for a given day, so that I cannot make two reservations for the same room that overlap by date
+  - I want an exception raised if I try to reserve a room that is unavailable for a given day, so that I cannot make two reservations for the same room that overlap by date
 
 #### Details
 
@@ -116,7 +116,7 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 
 - As a user of the hotel system,
   - I can create a Hotel Block if I give a date range, collection of rooms, and a discounted room rate
-  - I can see an exception raised if I try to create a Hotel Block and at least one of the rooms is unavailable for the given date range
+  - I want an exception raised if I try to create a Hotel Block and at least one of the rooms is unavailable for the given date range
   - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot reserve that specific room for that specific date, because it is unavailable
   - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot create another hotel block that includes that specific room for that specific date, because it is unavailable
   - I can check whether a given block has any rooms available
