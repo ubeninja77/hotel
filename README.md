@@ -132,6 +132,17 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 - Run tests automatically whenever files are added or changed using the `guard` command
 - The final project submission should have **95% code coverage** using `simplecov`
 
+## Optional Enhancements
+
+You should not be working on these (or even thinking about them!) until you have fully completed wave 3.
+
+<details>
+  - Add functionality that allows for setting different rates for different rooms
+  - Read and write CSV files for each piece of data that your system is storing
+  - Create a CLI to interact with your booking system. Put all of this code in a file `main.rb` that is separate from your `lib` code. Working on this optional enhancement should not break the other requirements of this project
+</details>
+
+
 ## Before Submissions
 
 Usually by the end of a project, we can look back on what we made with a clearer understanding of what we actually needed. In industry, this is a great time to do a refactor of some sort. For this project however, you're off the hook... for the moment. We will be revisiting our hotels later on on the course, and you may want to make some changes at that point. 
@@ -140,14 +151,6 @@ Usually by the end of a project, we can look back on what we made with a clearer
 - Make a short list of the changes that you could make, particularly in terms of naming conventions
 - These notes will be used by you in a few weeks, so make sure that they are detailed enough that someone else could understand your thinking and follow your directions
 - **Do not make any further changes to your code at this time**
-
-## Optional Enhancements
-
-You should not be working on these (or even thinking about them) until you have fully completed wave 3.
-
-- Allow a user to set different rates for different rooms
-- Read/write CSV files for each piece of data that your system is storing
-- Create a CLI to interact with your hotel system
 
 ## What we're looking for
 You can find what instructors will be looking for in the [feedback](feedback.md) markdown document. 
