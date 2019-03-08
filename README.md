@@ -13,11 +13,13 @@ This is a [stage 3](https://github.com/Ada-Developers-Academy/pedagogy/blob/mast
 
 ## Introduction
 
-Your company has been contracted to build a booking system for a small hotel. This system will be used by employees working at the front desk, and will not be available to the general public.
+Our company has been contracted to build a booking system for a small hotel. This system will be used by employees who manage bookings and booking data, and will not be available to the general public.
 
-This system will have two parts: a user interface that runs in the terminal, and a module full of business logic, classes and methods that keep track of which rooms are reserved when. **Your job is to implement the business logic only.** You do **not** need to build a CLI for this project.
+This system will have two parts: a user interface that runs in the terminal, and a module full of business logic, classes and methods that track which rooms are reserved, and at what dates.
 
-Instead, you will use tests to verify your part of the system works as intended.
+We should **not** build a CLI for this project.
+
+Instead, we will use tests to verify that this part of the system works as intended.
 
 ### Expectations
 
