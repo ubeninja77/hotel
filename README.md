@@ -62,25 +62,25 @@ Before starting work on the functional requirements, create a first draft of you
 
 ### Wave One: Tracking Reservations
 
-Remember that your job is only to build the classes that store information and handle business logic, and the tests to verify they're behaving as expected. Building a user interface is not part of this project!
+In this wave, write the functionality for the system to track valid reservations, so that a user of the hotel system can make and find valid bookings for their hotel.
+
+Remember: Your job is to only build the classes that store information and handle business logic, and the tests to verify they're behaving as expected. Building a user interface is not part of this project!
 
 #### User Stories
 
-- As an administrator, I can access the list of all of the rooms in the hotel
-- As an administrator, I can reserve a room for a given date range
-- As an administrator, I can access the list of reservations for a specific date
-- As an administrator, I can get the total cost for a given reservation
+- As a user of the hotel system...
+  - I can access the list of all of the rooms in the hotel
+  - I can reserve a room for a given date range, so that I can make a reservation
+  - I can access the list of reservations for a specific date, so that I can track reservations by date
+  - I can get the total cost for a given reservation
+  - I want a [StandardError](https://ruby-doc.org/core-2.5.0/StandardError.html) raised when an invalid date range is provided, so that I can't make a reservation for an invalid date range
 
-#### Constraints
+#### Details
 
 - The hotel has 20 rooms, and they are numbered 1 through 20
 - Every room is identical, and a room always costs $200/night
 - The last day of a reservation is the checkout day, so the guest should not be charged for that night
 - For this wave, any room can be reserved at any time, and you don't need to check whether reservations conflict with each other (this will come in wave 2!)
-
-#### Error Handling
-
-- Your code should raise an error ([StandardError](https://ruby-doc.org/core-2.5.0/StandardError.html)) when an invalid date range is provided
 
 #### Hints
 
@@ -90,16 +90,14 @@ Remember that your job is only to build the classes that store information and h
 
 #### User Stories
 
-- As an administrator, I can view a list of rooms that are not reserved for a given date range
-- As an administrator, I can reserve an available room for a given date range
+- As a user of the hotel system...
+  - I can view a list of rooms that are not reserved for a given date range, so that I can see all available rooms for that day
+  - I can reserve an available room for a given date range
+  - I can see an exception raised if I try to reserve a room that is unavailable for a given day, so that I cannot make two reservations for the same room that overlap by date
 
-#### Constraints
+#### Details
 
 - A reservation is allowed start on the same day that another reservation for the same room ends
-
-#### Error Handling
-
-- Your code should raise an exception when asked to reserve a room that is not available
 
 ### Wave Three: Blocks of Rooms
 
