@@ -141,9 +141,11 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 You should not be working on these (or even thinking about them!) until you have fully completed wave 3.
 
 <details>
+
   - Add functionality that allows for setting different rates for different rooms
   - Read and write CSV files for each piece of data that your system is storing
   - Create a CLI to interact with your booking system. Put all of this code in a file `main.rb` that is separate from your `lib` code. Working on this optional enhancement should not break the other requirements of this project
+
 </details>
 
 
