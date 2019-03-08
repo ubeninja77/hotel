@@ -99,13 +99,13 @@ Remember: Your job is to only build the classes that store information and handl
 
 - A reservation is allowed start on the same day that another reservation for the same room ends
 
-### Wave Three: Blocks of Rooms
+### Wave Three: Hotel Blocks
 
 If you are not familiar with what a block of hotel rooms, here is a brief description:
 
-> A Block Booking refers to a group of rooms set aside for a specific group of customers for a set period of time.
+> A Hotel Block is a group of rooms set aside for a specific group of customers for a set period of time.
 >
-> Room blocks are commonly created for large events like weddings or conventions. A number of rooms are set aside, and are made available for reservation by certain customers at a discounted rate. These rooms are not available to be reserved by the general public.
+> Hotel Blocks are commonly created for large events like weddings or conventions. They contain a number of rooms and a specific set of days. These rooms are set aside, and are made available for reservation by certain customers at a discounted rate. These rooms are not available to be reserved by the general public.
 
 #### User Stories
 
