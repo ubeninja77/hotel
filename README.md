@@ -89,7 +89,8 @@ Remember: Your job is to only build the classes that store information and handl
 
 #### Hints
 
-- You might want to investigate [Ruby's `Date` gem](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html).
+- These functionalities do not all need to be implemented in the same class
+- You might want to investigate [Ruby's `Date` gem](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html)
 
 ### Wave Two: Room Availability
 
@@ -120,7 +121,9 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
   - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot reserve that specific room for that specific date, because it is unavailable
   - Given a specific date, and that a room is set aside in a hotel block for that specific date, I cannot create another hotel block that includes that specific room for that specific date, because it is unavailable
   - I can check whether a given block has any rooms available
-  - I can reserve a room from within a block of rooms
+  - I can reserve a specific room from a hotel block
+    - I can only reserve that room from a hotel block for the full duration of the block
+  - I can see a reservation made from a hotel block from the list of reservations for that date (see wave 1 requirements)
 
 #### Details
 
