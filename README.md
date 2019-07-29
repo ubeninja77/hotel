@@ -35,6 +35,10 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 
 **It is possible you will not be able to complete all requirements.** The three waves are organized by difficulty and relevance to the learning goals, and should be tackled in order.
 
+### Hints
+
+We have included some [optional design scaffolding](https://github.com/AdaGold/hotel/blob/design-scaffolding/design-scaffolding-notes.md) for this project, to help you get started if you don't know where to start, or to provide inspiration if you're a little stuck. Any student should feel free to use this scaffolding in whatever way is most helpful to them. However, **we recommend that you spend at least 1 full day thinking about design before reaching for this scaffolding**, to get practice thinking about this type of problem independently. 
+
 ## Getting Started
 
 We will use the same project structure we used for the previous project. Library code (such as classes) should be in files in the `lib` folder, and tests should be in files in the `spec` folder.
@@ -79,7 +83,7 @@ Remember: Your job is to only build the classes that store information and handl
 
 - As a user of the hotel system...
   - I can access the list of all of the rooms in the hotel
-  - I can reserve a room for a given date range, so that I can make a reservation
+  - I can get a reservation of a room for a given date range
   - I can access the list of reservations for a specific date, so that I can track reservations by date
   - I can get the total cost for a given reservation
   - I want exception raised when an invalid date range is provided, so that I can't make a reservation for an invalid date range
@@ -89,6 +93,7 @@ Remember: Your job is to only build the classes that store information and handl
 - The hotel has 20 rooms, and they are numbered 1 through 20
 - Every room is identical, and a room always costs $200/night
 - The last day of a reservation is the checkout day, so the guest should not be charged for that night
+- When reserving a room, the user provides only the start and end dates - the library should determine which room to use for the reservation
 - For this wave, any room can be reserved at any time, and you don't need to check whether reservations conflict with each other (this will come in wave 2!)
 
 #### Hints
@@ -102,8 +107,8 @@ Remember: Your job is to only build the classes that store information and handl
 
 - As a user of the hotel system...
   - I can view a list of rooms that are not reserved for a given date range, so that I can see all available rooms for that day
-  - I can reserve an available room for a given date range
-  - I want an exception raised if I try to reserve a room that is unavailable for a given day, so that I cannot make two reservations for the same room that overlap by date
+  - I can get a reservation of a room for a given date range, and that room will not be part of any other reservation overlapping that date range
+  - I want an exception raised if I try to reserve a room during a date range when all rooms are reserved, so that I cannot make two reservations for the same room that overlap by date
 
 #### Details
 
