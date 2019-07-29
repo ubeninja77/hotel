@@ -32,7 +32,7 @@ If you choose to use the code on this branch as a starting point, follow these s
 ```
 $ git clone <paste forked repo URL>
 $ cd hotel
-$ git merge design-scaffolding
+$ git merge origin/design-scaffolding
 ```
 
 You can try to merge in the design scaffolding after you've started, but you'll probably end up with merge conflicts. See an instructor if you're not able to resolve them yourself.
