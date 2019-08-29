@@ -41,7 +41,7 @@ We have included some [optional design scaffolding](https://github.com/AdaGold/h
 
 ## Getting Started
 
-We will use the same project structure we used for the previous project. Library code (such as classes) should be in files in the `lib` folder, and tests should be in files in the `spec` folder.
+We will use the same project structure we used for the previous project. Library code (such as classes) should be in files in the `lib` folder, and tests should be in files in the `test` folder.
 
 1. Fork this repository in GitHub
 1. Clone the repository to your computer
@@ -144,7 +144,7 @@ If you are not familiar with what a block of hotel rooms, here is a brief descri
 
 ### Testing Requirements
 
-- Utilize the spec helper file
+- Utilize the test helper file
 - Run tests automatically whenever files are added or changed using the `guard` command
 - The final project submission should have **95% code coverage** using `simplecov`
 
