@@ -29,7 +29,7 @@ Test coverage |
 
 ### Code Review
 
-**Baseline** |
+**Baseline** | Feedback
 --- | ---
 Used git regularly	| 
 Answer comprehension questions	| 
