@@ -25,7 +25,7 @@ Students should feel free to modify any code as they see fit, including changing
 
 Design scaffolding code lives on the `design-scaffolding` branch.
 
-You can use this code either as inspiration, or as a starting point. If using it as an inspiration, it follows our standard project layout, with product code under `lib/` and tests under `spec/`.
+You can use this code either as inspiration, or as a starting point. If using it as an inspiration, it follows our standard project layout, with product code under `lib/` and tests under `test/`.
 
 If you choose to use the code on this branch as a starting point, follow these steps to start your project:
 
