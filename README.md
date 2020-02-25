@@ -135,7 +135,7 @@ Remember: Your job is to only build the classes that store information and handl
 
   <summary>A Hint on Dates</summary>
 
-  When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have code in the desired form.
+  When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have data in the desired form.
 
   **This is a job for driver code.**
 
