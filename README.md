@@ -33,7 +33,7 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 - Ask questions when you need clarification
 - Understand that the way you implement something may be different than the way your neighbor implements it
 
-**It is possible you will not be able to complete all requirements.** The three waves are organized by difficulty and relevance to the learning goals, and should be tackled in order.
+**It is expected that you will not be able to complete all requirements.** The three waves are organized by difficulty and relevance to the learning goals, and should be tackled in order.
 
 ### Hints
 
