@@ -39,16 +39,6 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 
 We have included some [optional design scaffolding](https://github.com/AdaGold/hotel/blob/design-scaffolding/design-scaffolding-notes.md) for this project, to help you get started if you don't know where to start, or to provide inspiration if you're a little stuck. Any student should feel free to use this scaffolding in whatever way is most helpful to them. However, **we recommend that you spend at least 1 full day thinking about design before reaching for this scaffolding**, to get practice thinking about this type of problem independently. 
 
-#### A Note on Dates
-
-When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have code in the desired form.
-
-**This is a job for driver code.**
-
-In this case we _are not_ writing driver code.  That means that your code should deal _entirely_ in Ruby `Date` objects.  Your tests should create `Date` objects and your library code should assume that it's receiving `Date` objects to start.
-
-When making tests you will want to use something like `Date.new(1993, 2, 24)` to create a date representing February 24, 1993 (or `Date.today` for today) instead of trying to parse a string or storing and re-parsing strings internally.
-
 ## Getting Started
 
 We will use the same project structure we used for the previous project. Library code (such as classes) should be in files in the `lib` folder, and tests should be in files in the `test` folder.
@@ -110,6 +100,20 @@ Remember: Your job is to only build the classes that store information and handl
 
 - These functionalities do not all need to be implemented in the same class
 - You might want to investigate [Ruby's `Date` gem](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html)
+
+<details>
+
+  <summary>A Hint on Dates</summary>
+
+  When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have code in the desired form.
+
+  **This is a job for driver code.**
+
+  In this case we _are not_ writing driver code.  That means that your code should deal _entirely_ in Ruby `Date` objects.  Your tests should create `Date` objects and your library code should assume that it's receiving `Date` objects to start.
+
+  When making tests you will want to use something like `Date.new(1993, 2, 24)` to create a date representing February 24, 1993 (or `Date.today` for today) instead of trying to parse a string or storing and re-parsing strings internally.
+
+</details>
 
 ### Wave Two: Room Availability
 
