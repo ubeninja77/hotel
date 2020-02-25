@@ -67,9 +67,39 @@ You should use the following process as much as possible:
 
 Your git commit history should provide a clear description of how your code developed, letting the reader know what changed when and why. Making frequent, small commits is essential!
 
-### Wave Zero: In-Class Design Activity
+## Wave 0: Design Requirements
 
-Before starting work on the functional requirements, create a first draft of your project's design in the in-class instructor-led activity.
+Before starting work on the functional requirements, create a first and second draft of your project's design.
+
+### First Draft: Instructor-led In-Class Design Activity
+
+Complete your first draft of the hotel design by following the instructor-led in-class design activity.
+
+### Second Draft
+
+<details>
+
+  <summary>After completing the in-class design activity, click here for the second draft instructions</summary>
+
+  We have our own first-draft design for this project. We'd like you all to look at our first-draft, compare it with your own, and adjust your own first draft if you'd like.
+
+  - A description of our code exists [here](https://github.com/AdaGold/hotel/blob/design-scaffolding/design-scaffolding-notes.md)
+  - Our code exists [here](https://github.com/AdaGold/hotel/tree/design-scaffolding).
+
+  Use the two links above to explore the files and answer these questions:
+
+  - What classes exist?
+    - Why? What are they named, what do they represent, and what state and behavior do they have?
+  - What tests exist?
+  - What parts of this design inspires you, and you want to steal?
+  - What parts of this design are you unsure about, and need to consider again later?
+  - What parts of this design do you think you can do without?
+
+</details>
+
+<br/>
+
+Spend **no more than 1 hour** answering those questions and adjusting your project's first draft design. After one hour, get started; don't forget that a useful skill for the programmer is the ability to get started, and adjust in small ways often.
 
 ## Functional Requirements
 
