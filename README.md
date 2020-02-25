@@ -33,21 +33,11 @@ This project is both a culmination of our Intro to Ruby unit and our first stage
 - Ask questions when you need clarification
 - Understand that the way you implement something may be different than the way your neighbor implements it
 
-**It is possible you will not be able to complete all requirements.** The three waves are organized by difficulty and relevance to the learning goals, and should be tackled in order.
+**It is expected that you will not be able to complete all requirements.** The three waves are organized by difficulty and relevance to the learning goals, and should be tackled in order.
 
 ### Hints
 
 We have included some [optional design scaffolding](https://github.com/AdaGold/hotel/blob/design-scaffolding/design-scaffolding-notes.md) for this project, to help you get started if you don't know where to start, or to provide inspiration if you're a little stuck. Any student should feel free to use this scaffolding in whatever way is most helpful to them. However, **we recommend that you spend at least 1 full day thinking about design before reaching for this scaffolding**, to get practice thinking about this type of problem independently. 
-
-#### A Note on Dates
-
-When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have code in the desired form.
-
-**This is a job for driver code.**
-
-In this case we _are not_ writing driver code.  That means that your code should deal _entirely_ in Ruby `Date` objects.  Your tests should create `Date` objects and your library code should assume that it's receiving `Date` objects to start.
-
-When making tests you will want to use something like `Date.new(1993, 2, 24)` to create a date representing February 24, 1993 (or `Date.today` for today) instead of trying to parse a string or storing and re-parsing strings internally.
 
 ## Getting Started
 
@@ -77,9 +67,39 @@ You should use the following process as much as possible:
 
 Your git commit history should provide a clear description of how your code developed, letting the reader know what changed when and why. Making frequent, small commits is essential!
 
-### Wave Zero: In-Class Design Activity
+## Wave 0: Design Requirements
 
-Before starting work on the functional requirements, create a first draft of your project's design in the in-class instructor-led activity.
+Before starting work on the functional requirements, create a first and second draft of your project's design.
+
+### First Draft: Instructor-led In-Class Design Activity
+
+Complete your first draft of the hotel design by following the instructor-led in-class design activity.
+
+### Second Draft
+
+<details>
+
+  <summary>After completing the in-class design activity, click here for the second draft instructions</summary>
+
+  We have our own first-draft design for this project. We'd like you all to look at our first-draft, compare it with your own, and adjust your own first draft if you'd like.
+
+  - A description of our code exists [here](https://github.com/AdaGold/hotel/blob/design-scaffolding/design-scaffolding-notes.md)
+  - Our code exists [here](https://github.com/AdaGold/hotel/tree/design-scaffolding).
+
+  Use the two links above to explore the files and answer these questions:
+
+  - What classes exist?
+    - Why? What are they named, what do they represent, and what state and behavior do they have?
+  - What tests exist?
+  - What parts of this design inspires you, and you want to steal?
+  - What parts of this design are you unsure about, and need to consider again later?
+  - What parts of this design do you think you can do without?
+
+</details>
+
+<br/>
+
+Spend **no more than 1 hour** answering those questions and adjusting your project's first draft design. After one hour, get started; don't forget that a useful skill for the programmer is the ability to get started, and adjust in small ways often.  Also, remember that you can always refactor later to improve your design!
 
 ## Functional Requirements
 
@@ -110,6 +130,20 @@ Remember: Your job is to only build the classes that store information and handl
 
 - These functionalities do not all need to be implemented in the same class
 - You might want to investigate [Ruby's `Date` gem](https://ruby-doc.org/stdlib/libdoc/date/rdoc/Date.html)
+
+<details>
+
+  <summary>A Hint on Dates</summary>
+
+  When programming it's generally helpful to convert or validate your data _as soon as possible_.  If you do this when you first read/receive data that means that the rest of your code can assume that you have data in the desired form.
+
+  **This is a job for driver code.**
+
+  In this case we _are not_ writing driver code.  That means that your code should deal _entirely_ in Ruby `Date` objects.  Your tests should create `Date` objects and your library code should assume that it's receiving `Date` objects to start.
+
+  When making tests you will want to use something like `Date.new(1993, 2, 24)` to create a date representing February 24, 1993 (or `Date.today` for today) instead of trying to parse a string or storing and re-parsing strings internally.
+
+</details>
 
 ### Wave Two: Room Availability
 
