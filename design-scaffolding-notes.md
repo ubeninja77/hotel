@@ -4,7 +4,7 @@
 
 This scaffolding is one solution that answers some of the initial questions about how project files can be laid out.
 
-Use GitHub.com to explore the files that exist on this repo.
+Use [this view of our branch on GitHub.com](https://github.com/AdaGold/hotel/tree/design-scaffolding) to explore the files that exist on this repo.
   - What classes exist?
     - Why? What are they named, what do they represent, and what state and behavior do they have?
   - What tests exist?
