@@ -99,7 +99,7 @@ Complete your first draft of the hotel design by following the instructor-led in
 
 <br/>
 
-Spend **no more than 1 hour** answering those questions and adjusting your project's first draft design. After one hour, get started; don't forget that a useful skill for the programmer is the ability to get started, and adjust in small ways often.
+Spend **no more than 1 hour** answering those questions and adjusting your project's first draft design. After one hour, get started; don't forget that a useful skill for the programmer is the ability to get started, and adjust in small ways often.  Also, remember that you can always refactor later to improve your design!
 
 ## Functional Requirements
 
