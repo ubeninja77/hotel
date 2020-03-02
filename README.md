@@ -99,7 +99,7 @@ Spend **no more than 1 hour** answering those questions and adjusting your proje
 
 ## Functional Requirements
 
-### Wave One: Tracking Reservations
+### Wave 1: Tracking Reservations
 
 In this wave, write the functionality for the system to track valid reservations, so that a user of the hotel system can make and find valid bookings for their hotel.
 
@@ -141,7 +141,7 @@ Remember: Your job is to only build the classes that store information and handl
 
 </details>
 
-### Wave Two: Room Availability
+### Wave 2: Room Availability
 
 #### User Stories
 
@@ -154,7 +154,7 @@ Remember: Your job is to only build the classes that store information and handl
 
 - A reservation is allowed start on the same day that another reservation for the same room ends
 
-### Wave Three: Hotel Blocks
+### Wave 3: Hotel Blocks
 
 If you are not familiar with what a block of hotel rooms, here is a brief description:
 
