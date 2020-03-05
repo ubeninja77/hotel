@@ -23,8 +23,8 @@ module Hotel
     def reserve_room(start_date, end_date)
       # start_date and end_date should be instances of class Date
       # rooms = find_rooms(room_number)
-      reservation = Hotel::Reservation.new(start_date, end_date, room_number)
-      return Reservation.new(start_date, end_date, room_number)
+      reservation = Hotel::Reservation.new(start_date: start_date,end_date: end_date,room_num: room_number)
+      return reservation
     end
 
     def reservations(date)
