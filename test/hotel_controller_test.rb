@@ -12,18 +12,30 @@ describe Hotel::HotelController do
         expect(rooms).must_be_kind_of Array
       end
     end
+
     describe "reserve_room" do
       it "takes two Date objects and returns a Reservation" do
         start_date = @date
         end_date = start_date + 3
-
-        reservation = @hotel_controller.reserve_room(start_date, end_date)
+        room_number = 10
+        rate = 200
+        reservation = @hotel_controller.reserve_room(start_date, end_date, room_number, rate)
 
         expect(reservation).must_be_kind_of Hotel::Reservation
       end
+
+      it "stores new reservation to the reservations list" do
+        start_date = @date
+        end_date = start_date + 3
+        room_number = 10
+        rate = 200
+        reservation = @hotel_controller.reserve_room(start_date, end_date, room_number, rate)
+
+        expect(@hotel_controller.reservations.size).must_equal(1)
+      end
     end
 
-    describe "reservations" do
+    xdescribe "reservations" do
       it "takes a Date and returns a list of Reservations" do
         reservation_list = @hotel_controller.reservations(@date)
 
@@ -44,6 +56,18 @@ describe Hotel::HotelController do
         room_list = @hotel_controller.available_rooms(start_date, end_date)
 
         expect(room_list).must_be_kind_of Array
+        expect(room_list).must_equal((1..20).to_a)
+      end
+
+      it "takes two dates and returns a list" do
+        start_date = @date
+        end_date = start_date + 3
+
+        @hotel_controller.reserve_room(start_date, end_date, 10, 200)
+        room_list = @hotel_controller.available_rooms(start_date, end_date)
+
+        expect(room_list).must_be_kind_of Array
+        expect(room_list.size).must_equal(19)
       end
     end
   end
