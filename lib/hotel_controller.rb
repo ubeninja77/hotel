@@ -1,14 +1,14 @@
 module Hotel
-  class HotelController
+  class HotelController 
+    # Option 1) hotel rooms (int) --> reservations (contains a date_range object)
+    # Optiona 2) hotel rooms (Room objects) --> Room --> reservations (contains a date_range object)
 
-    attr_accessor :start_date, :end_date, :room_number, :reservations
+    attr_accessor :hotel_rooms, :reservations
+    attr_reader 
 
-    def initialize
-      @start_date = start_date
-      @end_date = end_date
-      @room_number = room_number
+    def initialize()
+      @hotel_rooms = []
       @reservations = []
-      rooms
     end
 
     # Wave 1
@@ -22,11 +22,11 @@ module Hotel
         return @hotel_rooms 
     end
 
-    def verify_available(hotel_rooms, date)
-      if room_available == true #true if rooms is available
-        return 
-      end
-    end
+    # def verify_available(hotel_rooms, date)
+    #   if room_available == true #true if rooms is available
+    #     return 
+    #   end
+    # end
 
     # lists avialable rooms
     # def open_rooms()
@@ -46,26 +46,34 @@ module Hotel
     # takes a Date and returns an array of Reservations by date and the 
     def reservations_by_date(date)
 
-      []
+      return #an array
     end
 
     # Wave 2
     # locate avaialable rooms by two dates and returns an array
     def available_rooms(start_date, end_date)
-      available_room = @hotel_rooms 
-
-        if reservation.include?(start_date == start_date, end_date = end_date)
-          raise ArgumentError "Sorry, there is no room available on those days."
-        else
-        # need to compare the start/end date to current reservations
-
-
-        # return an array 
-        end
-      
+      # Loop through all reservations
+      # create an empty array will store all available rooms
+      @reservations.each do |reservation|
+        # everytime reservation.available? returns true add this reservation to the reservations array
       end
-  
+      # return the reservations array
 
+
+
+    #  available_room = @hotel_rooms 
+
+      #   if reservation.include?(start_date == start_date, end_date = end_date)
+      #     raise ArgumentError "Sorry, there is no room available on those days."
+      #   else
+      #   # need to compare the start/end date to current reservations
+
+
+      #   # return an array 
+      #   end
+      
+    end
+  
     #   @hotel_rooms.each do |room_num|
     #     if room_num.available(start_date, end_date) == true
     #     available_room << room_num
@@ -77,6 +85,6 @@ module Hotel
     #     end
       # end
     #   # start_date and end_date should be instances of class Date
-    end
+  
   end
 end
