@@ -1,6 +1,6 @@
 module Hotel
   class DateRange
-    
+
     attr_accessor :start_date, :end_date
 
     def initialize(start_date, end_date)
@@ -12,8 +12,10 @@ module Hotel
     end
     
     # checks if a reservation overlaps with another
-    def overlap?(date_range) #need to verify date_range is defined
-      if start_date <= end_date && end_date >= start_date
+    def overlap?(date_range)
+      if (end_date < date_range.start_date || start_date > date_range.end_date)
+        return false
+      else
         return true
       end
     end
